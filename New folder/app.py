@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 CORS(app)
 
-TMDB_API_KEY = 'your_tmdb_api_key'
+TMDB_API_KEY = '90bbe7bb75a86cf65529f744451746bc'
 TMDB_BASE_URL = 'https://api.themoviedb.org/3'
 
 @app.route('/api/movies/<movie_id>', methods=['GET'])
